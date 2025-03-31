@@ -14,5 +14,11 @@ git add <file_name>
 git commit -m "why-you-committed"
 ```
 * Push the changes to GitHub/Central Repo
-
+```
+git push -u origin main
+```
 **naming convention : use small case with Hyphens(-). No spaces**
+
+```
+git add . ; git commit -m "some-message"; git push -u origin main  
+```
