@@ -9,5 +9,5 @@ echo "Which user is running this script: $USER"
 echo "Hostname: $HOSTNAME"
 echo "Process ID of the current shell script: $$"
 # sleep 60 Duplicate the IP in different tab and run ps -ef and check for the process ID that is shown from step -10 command
-sleep 60 & # & Runs in Background
+sleep 60 & # & Runs in Background. Duplicate the IP in different tab and run ps -ef | grep sleep and check for the process ID that is shown from step -12 command
 echo "Process ID of last background command: $!"
