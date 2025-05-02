@@ -39,5 +39,6 @@ dnf install git -y &>>$LOGFILE
 
 VALIDATE $? "Installing GIT"
 
-dnf install dockerrr -y &>>LOGFILE 
+dnf install dockerr -y &>>$LOGFILE 
+
 VALIDATE $? "Installing Docker"
