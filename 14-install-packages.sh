@@ -44,3 +44,5 @@ do
      VALIDATE $? "Installation of $i"
   fi
 done
+
+# To Remove installed command: sudo dnf remove mysql gcc -y
